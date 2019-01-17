@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Oct 03 09:28:21 BST 2018
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1538555301742
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.seleniumhq.selenium\:selenium-java\:jar\:sources\:3.10.0 from/to central (https\://repo.maven.apache.org/maven2)\: Failed to connect to repo.maven.apache.org/151.101.16.215\:443
