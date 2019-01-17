@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.common.TestngListeners"/>
+</listeners>
+  <test thread-count="5" name="reshma">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+       <!-- <class name="com.testscripts.NavigationOfPages"/>  -->
+      <!-- <class name="com.testscripts.AllOntimeFull"/> -->
+      <class name="com.testscripts.AllLateDiscrepancy"/>
+      <!-- <class name="com.testscripts.AllUnknown"/> -->
+      <!-- <class name="com.testscripts.AllDelayed"/> -->
+     <!-- <class name="com.testscripts.CARDITFieldValidations"/> -->
+     <!-- <class name="com.testscripts.PRECONfieldValidations"/> -->
+     <!-- <class name="com.testscripts.RESCONFieldValidations"/> -->
+     <!-- <class name="com.testscripts.RESDITFieldValidations"/> -->
+     <!-- <class name="com.testscripts.OntimeDelayedLate"/> -->
+     <!-- <class name="com.testscripts.SearchSummarySearchConsignCount"/> -->
+     <!-- <class name="com.testscripts.ConsignmentDetailsSameTab"/> -->
+     <!-- <class name="com.testscripts.EventCodes"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
